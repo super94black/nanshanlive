@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 /**
  * @Author zhang
  * @Date 2019/4/21 16:48
- * @Content
+ * @Content 直播间封面截图线程
  */
 public class ImageThread extends Thread {
 

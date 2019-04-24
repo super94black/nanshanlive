@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
 <title>回放</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -55,18 +55,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="recommended-info">
 						<h3>回放列表</h3>
 					</div>
-					<div class="col-md-4 resent-grid recommended-grid slider-top-grids">
+					<div class="col-md-4 resent-grid recommended-grid slider-top-grids" th:each="video : ${res}">
 						<div class="resent-grid-img recommended-grid-img">
-							<a href="single.html"><img src="images/t1.jpg" alt="" /></a>
-			
-							
+							<input type="hidden" id="uid" th:value="${video.roomEntity.uid}">
+							<a href="javascript:void(0);" onclick="video()"><img th:src="${video.roomEntity.imgAdd}" alt="" /></a>
 						</div>
-						<div class="resent-grid-info recommended-grid-info">
-							<h3><a href="single.html" class="title title-info">房间名</a></h3>
-							<ul>
-								<li><p class="author author-info"><a href="#" class="author">卢本伟</a></p></li>
 
-								<li class="live-time"><p class="views views-info">直播日期</p></li>
+						<div class="resent-grid-info recommended-grid-info">
+							<h3><a href="single.html" class="title title-info" th:text="${video.roomEntity.rName}"></a></h3>
+							<ul>
+								<li><p class="author author-info"><a href="#" class="author" th:text="${video.name}"></a></p></li>
+
+								<li class="live-time"><p class="views views-info" th:text="${video.roomEntity.startTime}"></p></li>
 							</ul>
 						</div>
 					</div>
@@ -79,4 +79,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <script src="/js/bootstrap.min.js"></script>
 
   </body>
+
+<script>
+	function video() {
+		var uid = $("#uid").val();
+		window.location = "http://localhost:8080/video?id=" + uid + "&type=360p";
+	}
+</script>
 </html>

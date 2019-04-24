@@ -25,15 +25,11 @@ public class VideoController {
     @Autowired
     VideoService videoService;
 
-    @GetMapping("/show")
+    @GetMapping("/shows")
     public String getAllVideo(Model model){
         List<VideoPojo> res = videoService.getAllVideo();
-
-        if(null != res && res.size() != 0){
-            model.addAttribute("res",res);
-        }
-
-        return "/show";
+        model.addAttribute("res",res);
+        return "shows";
     }
 
     @RequestMapping("/video/format")

@@ -45,213 +45,16 @@
       <change afterPath="$PROJECT_DIR$/../live/lib/spring-test-4.3.18.RELEASE.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../live/lib/spring-tx-4.3.18.RELEASE.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../nanshanlive-client/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/nanshanlive_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/SpringBootStartApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/AnchorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/RoomController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/VideoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/dao/AnchorDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/dao/LiveCatDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/dao/RoomDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/dao/StatDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/dao/VideoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/AnchorEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/AnchorRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/Guest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/LiveCatEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/MsgEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/RecordDone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/RoomEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/VideoEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/VideoPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/AnchorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/LiveService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/RecordService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/RoomService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/VideoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/thread/ImageThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/util/CurlUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/util/FFMpegUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/util/MDUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/util/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/util/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/7.10.4/jw-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/7.10.4/jw-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/7.10.4/jwpsrv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/7.10.4/polyfills.base64.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/7.10.4/polyfills.intersection-observer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/7.10.4/polyfills.promise.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/7.10.4/polyfills.vttrenderer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/7.10.4/provider.airplay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/7.10.4/provider.cast.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/7.10.4/provider.flash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/7.10.4/provider.hlsjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/7.10.4/provider.html5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/7.10.4/provider.shaka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/7.10.4/provider.youtube.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/7.10.4/related.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/7.10.4/vttparser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/app.b829d39aa5e10720e024cbb1296a2f58.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/popuo-box.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/videojs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/barrager.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/behance.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/ch1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/comment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/cute.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/dribbble.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/fb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/fb1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/google.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/h-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/haha.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/heisenberg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/ie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/like.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/lines.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/linkedin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/me.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/mj.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/mv.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/pinterest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/pr1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/pr2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/rss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/select-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/social.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/themes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/tv.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/u12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/view.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/whatsapp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/yaseng.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/app.10bab200145280966f5b.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/axios.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery-1.11.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery-1.9.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery-2.1.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.danmu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.danmuku.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.magnific-popup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.polyglot.language.switcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/manifest.cc99e407aeb1d2ae73ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/modernizr.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/responsiveslides.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/vendor.28b86503db3d49926942.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/videojs-ie8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/videojs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/vue-router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/jwplayer-30s.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/jwplayer.flash.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/jwplayer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/jwplayer.loader.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/skins/beelden.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/skins/bekle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/skins/five.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/skins/glow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/skins/roundster.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/skins/seven.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/skins/six.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/skins/stormtrooper.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/skins/vapor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/vonic/ionicons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/vonic/ionicons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/vonic/ionicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/vonic/ionicons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/vonic/vonic.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/vonic/vonic.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/vonic/vonic.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/vonic/vonic.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/danmu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/live.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/shows.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/video.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/websocket.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/RtmpDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/RtmpApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/SpringBootStartApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/SpringBootStartApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/bootstrap/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/config/CorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/bootstrap/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/config/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/bootstrap/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/config/WebSocketConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/LiveController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/ChatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/dao/StatDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/dao/StatDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/UserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/AppListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/AppListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/HandShkeInceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/interceptor/HandShkeInceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/IpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/util/IpUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/MyChannelInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/interceptor/MyChannelInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/NameGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/util/NameGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/UserAgentUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/util/UserAgentUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hushangjie.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hushangjie1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app.10bab200145280966f5b.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app.10bab200145280966f5b.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/live.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/live.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/live_m.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/myresume.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/video.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/RtmpDemoApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/SpringBootStartApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanshanlive/SpringBootStartApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/bootstrap/CorsConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/bootstrap/RedisConfig$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/bootstrap/RedisConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/bootstrap/WebSocketConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/controller/DemoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/controller/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/dao/StatDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanshanlive/dao/StatDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanshanlive/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/entity/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanshanlive/entity/UserEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/service/AppListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/service/HandShkeInceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/service/IpUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/service/MyChannelInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/service/NameGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/service/UserAgentUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/hushangjie.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/hushangjie1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/app.10bab200145280966f5b.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/app.10bab200145280966f5b.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/live.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/live.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/live_m.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/myresume.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/RoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/RoomController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/VideoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/VideoPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/VideoPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/RecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/RecordService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/VideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/VideoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/thread/FormatVideoThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/thread/FormatVideoThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/thread/ImageThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/thread/ImageThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/shows.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/shows.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -266,7 +69,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
+            <state relative-caret-position="378">
               <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -276,10 +79,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/service/RoomService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="83" column="56" selection-start-line="83" selection-start-column="56" selection-end-line="83" selection-end-column="56" />
+            <state relative-caret-position="213">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -290,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/VideoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+            <state relative-caret-position="21">
+              <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -300,13 +103,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/service/VideoService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/RoomController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
+            <state relative-caret-position="176">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/LiveController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -314,8 +126,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/thread/ImageThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+            <state relative-caret-position="69">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -324,18 +136,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-42">
-              <caret line="80" column="51" selection-start-line="80" selection-start-column="51" selection-end-line="80" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/ChatController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
+            <state relative-caret-position="510">
               <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -344,32 +147,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/live.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/AuthController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+            <state relative-caret-position="210">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/shows.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/AnchorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="64" column="52" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="52" />
+            <state relative-caret-position="290">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/video.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/interceptor/MyChannelInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="39" column="78" selection-start-line="39" selection-start-column="78" selection-end-line="39" selection-end-column="78" />
+            <state relative-caret-position="-1124">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -443,7 +249,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/AnchorRoomEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/LiveCatEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/dao/LiveCatDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/RoomController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/AnchorEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/AuthService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/popuo-box.css" />
@@ -453,28 +258,29 @@
         <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/util/CurlUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/util/FFMpegUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/LiveImgThread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/RecordService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/dao/RoomDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/AnchorRoom.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/shows.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/dao/VideoDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/TestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/RecordDone.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/FormatVideoThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/VideoEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/VideoPojo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/AnchorService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/AuthController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/LiveService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/thread/ImageThread.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/live.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/ChatController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/VideoService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/thread/FormatVideoThread.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/video.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/RoomService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/VideoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/VideoPojo.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/shows.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/thread/ImageThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/thread/FormatVideoThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/VideoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/RecordService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/RoomController.java" />
       </list>
     </option>
   </component>
@@ -505,10 +311,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="497" />
-    <option name="y" value="3" />
-    <option name="width" value="887" />
-    <option name="height" value="528" />
+    <option name="x" value="550" />
+    <option name="y" value="88" />
+    <option name="width" value="780" />
+    <option name="height" value="517" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -588,6 +394,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="nanshanlive" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nanshanlive" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nanshanlive" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="nanshanlive" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -640,8 +456,8 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555859643431" />
-    <property name="last_opened_file_path" value="D:/webwork/暑期陪培训/weixin-v1.2-2017-08-26" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556091151318" />
+    <property name="last_opened_file_path" value="D:/workspace/exam" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -777,6 +593,7 @@
       <workItem from="1555486748646" duration="581000" />
       <workItem from="1555651616321" duration="834000" />
       <workItem from="1555823061766" duration="25860000" />
+      <workItem from="1556085680043" duration="5375000" />
     </task>
     <servers />
   </component>
@@ -813,7 +630,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212667000" />
+    <option name="totallyTimeSpent" value="218042000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -826,9 +643,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988399" visible="true" weight="0.32223904" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988399" visible="true" weight="0.32753405" />
       <window_info id="Structure" order="1" sideWeight="0.5011601" side_tool="true" weight="0.3547655" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -838,7 +654,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32786885" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.12131148" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.04918033" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36557376" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -894,38 +710,14 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/AuthController.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/AuthController.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/AuthController.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/AuthController.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/nanshanlive/service/RecordService.java</url>
-          <line>20</line>
+          <line>19</line>
           <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/nanshanlive/service/RecordService.java</url>
-          <line>22</line>
+          <line>21</line>
           <properties />
           <option name="timeStamp" value="30" />
         </line-breakpoint>
@@ -939,34 +731,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.9.RELEASE/spring-web-4.3.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8/src.zip!/java/lang/ProcessBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="251" column="26" selection-start-line="251" selection-start-column="26" selection-end-line="251" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/easyCV/web-service/videoimageshot-web/src/main/java/cc/eguid/cv/web/videoimageshotweb/pojo/ErrorMsg.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/corelib/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/AnchorEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="93" column="24" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1892#1893#0" expanded="true" />
-            <element signature="e#1919#1920#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1036,18 +800,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/TestController.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.4.RELEASE/spring-data-redis-1.8.4.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -1069,67 +822,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/UserEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/VideoEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/VideoPojo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding>
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/RoomController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/util/NameGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1163,16 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/service/LiveService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="63" column="46" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/Guest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -1192,10 +878,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/MsgEntity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/RecordDone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="613">
+          <caret line="93" column="18" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
+          <folding>
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#1715#1716#0" expanded="true" />
+            <element signature="e#1742#1743#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/RtmpApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#299#300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/AnchorEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="93" column="24" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1892#1893#0" expanded="true" />
+            <element signature="e#1919#1920#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1213,63 +927,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/RecordDone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="93" column="18" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
-          <folding>
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#1715#1716#0" expanded="true" />
-            <element signature="e#1742#1743#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/service/RecordService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/AuthController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/AnchorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/MsgEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/VideoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/service/LiveService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/danmu.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/RoomEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+        <state relative-caret-position="33">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#972#973#0" expanded="true" />
@@ -1278,36 +976,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/LiveController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/AppListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-189">
-          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+        <state relative-caret-position="133">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/RtmpApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/video.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#299#300#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-399">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/thread/FormatVideoThread.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-273">
+          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/shows.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/live.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
+        <state relative-caret-position="-357">
           <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1315,47 +1014,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/service/VideoService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/ChatController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="80" column="51" selection-start-line="80" selection-start-column="51" selection-end-line="80" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/thread/ImageThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+        <state relative-caret-position="210">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1364,7 +1026,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/service/RoomService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
+        <state relative-caret-position="381">
           <caret line="83" column="56" selection-start-line="83" selection-start-column="56" selection-end-line="83" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1372,27 +1034,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/video.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/thread/FormatVideoThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="39" column="78" selection-start-line="39" selection-start-column="78" selection-end-line="39" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/VideoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+        <state relative-caret-position="-1050">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/shows.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/service/VideoService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="64" column="52" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="52" />
+        <state relative-caret-position="346">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/service/RecordService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/VideoPojo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/interceptor/HandShkeInceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/interceptor/MyChannelInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1124">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/thread/ImageThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/AnchorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/ChatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/RoomController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/VideoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/LiveController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

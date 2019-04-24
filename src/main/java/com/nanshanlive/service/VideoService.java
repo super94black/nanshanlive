@@ -1,12 +1,10 @@
 package com.nanshanlive.service;
 
+import com.nanshanlive.dao.UserDao;
+import com.nanshanlive.entity.*;
 import com.nanshanlive.thread.FormatVideoThread;
 import com.nanshanlive.dao.RoomDao;
 import com.nanshanlive.dao.VideoDao;
-import com.nanshanlive.entity.RecordDone;
-import com.nanshanlive.entity.RoomEntity;
-import com.nanshanlive.entity.VideoEntity;
-import com.nanshanlive.entity.VideoPojo;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -32,6 +30,8 @@ public class VideoService {
     @Autowired
     RoomDao roomDao;
     @Autowired
+    UserDao userDao;
+    @Autowired
     RedisTemplate redisTemplate;
 
     /**
@@ -45,11 +45,14 @@ public class VideoService {
             return null;
         List<VideoPojo> res = new ArrayList<>();
         RoomEntity roomEntity = new RoomEntity();
+        UserEntity userEntity = new UserEntity();
         for (VideoEntity videoEntity :list) {
             roomEntity = roomDao.findOne(videoEntity.getRid());
+            userEntity = userDao.findOne(roomEntity.getUid());
             VideoPojo pojo = new VideoPojo();
             pojo.setVideoAdd(videoEntity.getVideoAdd());
             pojo.setRoomEntity(roomEntity);
+            pojo.setName(userEntity.getName());
             res.add(pojo);
         }
         return res;
@@ -101,10 +104,5 @@ public class VideoService {
         return pojo;
     }
 
-    @Test
-    public void test(){
-        RecordDone recordDone = new RecordDone();
-        recordDone.setName("1");
-        formatVideo(recordDone);
-    }
+
 }

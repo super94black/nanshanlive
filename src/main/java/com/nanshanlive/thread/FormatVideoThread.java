@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 /**
  * @Author zhang
  * @Date 2019/4/21 14:40
- * @Content
+ * @Content 直播流关闭后视频转码线程
  */
 public class FormatVideoThread extends Thread {
     public String byteV;

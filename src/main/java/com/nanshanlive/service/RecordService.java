@@ -1,7 +1,6 @@
 package com.nanshanlive.service;
 
 import com.nanshanlive.util.CurlUtil;
-import org.junit.jupiter.api.Test;
 import org.springframework.stereotype.Service;
 
 /**
@@ -37,10 +36,6 @@ public class RecordService {
         }
     }
 
-    @Test
-    public void test(){
-        recordLiveStream("2");
 
-    }
 
 }
