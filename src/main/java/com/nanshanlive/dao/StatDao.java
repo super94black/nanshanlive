@@ -15,12 +15,15 @@ import java.util.*;
 public class StatDao {
     @Autowired
     RedisTemplate redisTemplate;
+
+
     public void pushOnlineUser(UserEntity userEntity){
         redisTemplate.opsForSet().add("OnlineUser",userEntity);
     }
     public void popOnlineUser(UserEntity userEntity){
         redisTemplate.opsForSet().remove("OnlineUser" ,userEntity);
     }
+
     public Set getAllUserOnline(){
         return redisTemplate.opsForSet().members("OnlineUser");
     }

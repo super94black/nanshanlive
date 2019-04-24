@@ -1,29 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>video</title>
-    <link href="//vjs.zencdn.net/5.19/video-js.min.css" rel="stylesheet">
-    <script src="//vjs.zencdn.net/5.19/video.min.js"></script>
-</head>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>video</title>
+        <script type="text/javascript" src="/jwplayer.js"></script>
+        <script type="text/javascript" src="/js/jquery-1.9.1.min.js"></script>
+        <script>jwplayer.key="4sNBpozdkb2Gv+IYeWyd+CID9tW2NXdJE5GeSg==";//修改为自己的key</script>
+        </head>
 <body>
-<video
-        id="my-player"
-        class="video-js"
-        controls
-        preload="auto"
-        poster="//vjs.zencdn.net/v/oceans.png"
-        data-setup='{}'>
-    <source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4"></source>
-    <source src="//vjs.zencdn.net/v/oceans.webm" type="video/webm"></source>
-    <source src="//vjs.zencdn.net/v/oceans.ogv" type="video/ogg"></source>
-    <p class="vjs-no-js">
-        To view this video please enable JavaScript, and consider upgrading to a
-        web browser that
-        <a href="http://videojs.com/html5-video-support/" target="_blank">
-            supports HTML5 video
-        </a>
-    </p>
-</video>
+<div id="player">
+    <input type="hidden" id="title" th:value="${title}">
+    <input type="hidden" id="imgAdd" th:value="${imgAdd}">
+    <input type="hidden" id="videoAdd" th:value="${videoAdd}">
+    <input type="hidden" id="uid" th:value="${uid}">
+
+</div>
+
+<button onclick="change()">720p</button>
+<script type="text/javascript">
+    var title = $("#title").val();
+    var imgAdd = $("#imgAdd").val();
+    var videoAdd = $("#videoAdd").val();
+    var uid = $("#uid").val();
+
+    jwplayer("player").setup({
+        "flashplayer": "http://localhost:8080/jwplayer.flash.swf", //player.swf文件的uri
+        "file": videoAdd,//视频文件路径
+        "aspectratio": "16:9",//播放器自适应比例
+        "height": "360",//播放器高度
+        "type":"",//播放文件类型（可选）
+        "title": title,//标题（可选）
+        "description": "测试视频描述",//描述（可选）
+        "image": imgAdd,//视频封面（可选）
+        "repeat":"true",//重复播放（留空则不重复播放）
+        "autostart":"true",//自动播放（留空则不启用自动播放）
+        "streamer":"start"
+    });
+    function change() {
+       location.href = "http://localhost:8080/video?id=" + uid + "&type=720p";
+    }
+</script>
 </body>
 </html>
+
+

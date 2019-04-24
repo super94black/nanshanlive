@@ -5,19 +5,27 @@
     <title></title>
     <link href="http://vjs.zencdn.net/5.5.3/video-js.css" rel="stylesheet">
     <script src="http://vjs.zencdn.net/ie8/1.1.1/videojs-ie8.min.js"></script>
-    <script src="http://vjs.zencdn.net/5.5.3/video.js"></script>
-    <!--<link href="css/videojs.css" rel="stylesheet">-->
-    <!--<script src="js/videojs.js"></script>-->
-    <!--<script type="text/javascript">videojs.options.flash.swf = "player/video-js.swf";</script>-->
-    <!--<script src="http://vjs.zencdn.net/ie8/1.1.1/videojs-ie8.min.js"></script>-->
+    <script src="http://vjs.zencdn.net/5.7/video.js"></script>
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- bootstrap -->
+    <link href="/css/bootstrap.min.css" rel='stylesheet' type='text/css' media="all" />
+    <!-- //bootstrap -->
+    <link href="/css/dashboard.css" rel="stylesheet">
+
+    <link href="/css/style.css" rel='stylesheet' type='text/css' media="all" />
+    <script src="/js/jquery-1.11.1.min.js"></script>
+
+    <link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <!-- //fonts -->
     <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet"/>
+    <link href="/css/bootstrap.css" rel="stylesheet"/>
     <script src="http://cdn.bootcss.com/sockjs-client/1.1.1/sockjs.min.js"></script>
     <script src="http://cdn.bootcss.com/stomp.js/2.3.3/stomp.js"></script>
-    <script src="js/jquery-2.1.0.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/vue.js"></script>
-    <script src="js/jquery.danmu.min.js"></script>
+    <script src="/js/jquery-2.1.0.min.js"></script>
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/vue.js"></script>
+    <script src="/js/jquery.danmu.min.js"></script>
 
     <style>
         .col-center-block {
@@ -25,6 +33,16 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
+        }
+        nav.navbar.navbar-inverse.navbar-fixed-top {
+            padding: 1.5em 0;
+            background: #FFF;
+            margin: 0;
+            height: 50px;
+
+        }
+        nav.navbar-collapse collapse{
+            margin-top: 0;
         }
 
         .tab-content > .active {
@@ -62,27 +80,29 @@
 <body>
 <!--/*@thymesVar id="online_guests" /-->
 <!--/*@thymesVar id="history_guests" */-->
-<div class="container" id="chatroom">
-    <div class="row">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 
-    </div>
-    <div class="row">
-        <div class="col-md-12" style="margin-bottom: 10px;">
-            <!--标题区域-->
-            <div class="col-md-8" style="height: 80px;padding-left: 0px;background-color: #47d5af;">
-                <div>
+            </button>
+            <a class="navbar-brand" href="index.html"><h1><img src="/images/logo.png" alt="" /></h1></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
 
-                    <button class="btn btn-default pull-right" style="background-color: #47d5af" onclick="changeSrc()">我要直播</button>
-                    <h3 style="margin-left: 15px;margin-top: 10px; float: left;">直播间demo(移动端、电脑端、安卓客户端)</h3>
+            <div class="header-top-right">
+
+                <div class="signin">
+                    <a href="#small-dialog2" class="play-icon popup-with-zoom-anim">登陆</a>
+                </div>
+                <div class="signin">
+                    <a href="#small-dialog" class="play-icon popup-with-zoom-anim">注册</a>
                 </div>
             </div>
-            <!--公告区域-->
-            <div class="col-md-4" style="height: 80px; background-color: #47d5af;">
-                <h3 class="anchorNotice" style="margin-top: 0px; float: left;"><i class="fa fa-bell"
-                                                                                  aria-hidden="true"></i>主播公告</h3>
-                <div style="padding: 10px;">功能:1.直播推流(rtmp)。2:本页面拉流(电脑端拉取rtmp,手机端拉取hls)。3:聊天室。4:弹幕系统。5.数据统计。</div>
-            </div>
         </div>
+    </div>
+</nav>
+<div class="container" id="chatroom">
 
         <!--controls
         preload="auto" autoplay="true" data-setup='{}' width="640px" height="439px" controls-->
@@ -94,9 +114,9 @@
                         <!--class="video-js col-center-block">-->
                     <!--<source src="rtmp://127.0.0.1/live/"  type="rtmp/flv" >-->
                 <!--</video>-->
-                <video id="my-video" class="video-js" controls preload="auto" autoplay="true" height="439" width="720"
+                <video id="my-video" class="video-js" controls preload="auto" autoplay="true"
                        poster="" data-setup="{}">
-                    <source src="rtmp://127.0.0.1/live/" type="rtmp/flv">
+                    <!--<source src="rtmp://127.0.0.1/push/test" type="rtmp/flv">-->
                 </video>
             </div>
         </div>
@@ -107,11 +127,9 @@
                 <li class="active">
                     <a href="#discussion" data-toggle="tab"><i class="fa fa-tree"></i>互动聊天</a>
                 </li>
+
                 <li>
-                    <a href="#members" data-toggle="tab"><i class="fa fa-tree"></i>现场嘉宾({{number}})</a>
-                </li>
-                <li>
-                    <a href="#guests" data-toggle="tab"><i class="fa fa-tree"></i>最近访问</a>
+                    <a href="#guests" data-toggle="tab"><i class="fa fa-tree"></i>现场嘉宾({{number}})</a>
                 </li>
             </ul>
             <!--内容滚动区域开始-->
@@ -119,6 +137,7 @@
                 <div class="tab-pane fade active in" id="discussion" style="padding:10px;">
                     <div v-for="message in messages">
                         <span style="color: cornflowerblue;">{{message.creator}}:</span>
+                        <input type="hidden" th:value="${roomNumber}" id="roomNumber"/>
                         <span>{{message.msgBody}}</span>
                     </div>
                 </div>
@@ -126,7 +145,7 @@
                 <!--现场观众统计开始-->
                 <div class="tab-pane fade in" style="padding-top: 10px;" id="members" style="padding:10px;">
                     <div th:each="user : ${online_guests}">
-                        <span style="color: cornflowerblue;" th:text="${user.randomName}"></span>
+                        <span style="color: cornflowerblue;" th:text="${user.name}"></span>
                         <span th:text="${user.ip}">${user.ip}</span>
                     </div>
                 </div>
@@ -134,7 +153,7 @@
                 <!--最近访问统计总数-->
                 <div class="tab-pane fade in" style="padding-top: 10px;" id="guests" style="padding:10px;">
                     <div th:each="guest : ${history_guests}">
-                        <span style="color: cornflowerblue;" th:text="${guest.userEntity.randomName}"></span>
+                        <span style="color: cornflowerblue;" th:text="${guest.userEntity.name}"></span>
                         <span th:text="${guest.userEntity.ip}"></span>
                         <span th:text="${#calendars.format(guest.accessTime,'yyyy-MM-dd mm:ss')}"></span>
                     </div>
@@ -163,6 +182,7 @@
     </div>
 
     <script>
+        var roomNumber = $("#roomNumber").val();
         var chatroom;
         chatroom = new Vue({
             el: '#chatroom',
@@ -226,11 +246,11 @@
                                 height: '439px',
                                 width: '720px',
                                 "techOrder": ["html5", "flash"],
-                                controls: true,
+                                "controls": true,
                                 "autoplay": true,
                                 sources: [{
                                     /*rtmp://live.hkstv.hk.lxdns.com/live/hks*/
-                                    src: 'rtmp://live.hkstv.hk.lxdns.com/live/hks',
+                                    src: 'rtmp://localhost/live/' + roomNumber,
                                     type: 'rtmp/flv'
                                 }]
                             },
@@ -275,7 +295,7 @@
                 }
         });
         function changeSrc(){
-            alert("请使用推流软件(OBS等)，推送到rtmp://139.199.82.213/live/demo,即可在本直播间看到您的直播内容!")
+            alert("请使用推流软件(OBS等)")
             chatroom.videoPlayer.src('rtmp://127.0.0.1/demo');
             chatroom.videoPlayer.load('rtmp://127.0.0.1/live/demo');
             chatroom.videoPlayer.play();
