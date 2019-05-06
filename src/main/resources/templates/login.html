@@ -1,0 +1,104 @@
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+
+<div th:include="head"></div>
+<body>
+<div th:include="header"></div>
+
+<style>
+    label{
+        display: inline-block;
+        padding: 0 10px;
+        vertical-align: middle;
+    }
+    input{
+        outline: none;
+        border: 1px solid rgb(216, 216, 216);
+        padding: 2px 10px 2px 10px;
+    }
+    input[type="text"]{
+        height: 14px;
+        line-height: 14px;
+        border-radius: 5px;
+        padding:10px 10px;
+        vertical-align: middle;
+        color:#666;
+    }
+    input[type="button"]{
+        padding: 0px 10px;
+        height:40px;
+    }
+
+
+    .login-box p{
+        vertical-align:middle;
+        padding:10px 10px;
+    }
+</style>
+<br>
+
+
+<form id="login" class="login-form" method="post">
+    <p>
+        <label>帐号</label>
+        <input name="name"  type="text" class="normal"/>
+
+    </p>
+    <p>
+        <label>密码</label>
+        <input name="pass"  type="password" class="normal"/>
+    </p>
+    <p>
+    <div class="form-group">
+        <div class="col-md-2 col-md-offset-5">
+            <input type="button" class="btn btn-primary btn-block" value="登陆" onclick="doLogin()"/>
+        </div>
+    </div>
+    </p>
+
+</form>
+
+</body>
+<script type="text/javascript">
+
+
+    function doLogin() {
+        var formData = new FormData($("#login")[0]);
+
+
+        var regUsername = /^[a-zA-Z0-9_]{5,11}$/;
+        if (!regUsername.test(formData.get('name'))) {
+            alert("用户名必须为由大小写字母、数字或下划线_组成的5-11个字符");
+            return null;
+        }
+        if (formData.get('pass').length < 8 || formData.get('pass').length > 16) {
+            alert("密码长度为8-16位");
+            return null;
+        }
+
+
+        $.ajax({
+            url: '/user/login',
+            type: 'POST',
+            data: formData,
+            async: true,
+            cache: false,
+            contentType: false,
+            processData: false,
+            success: function (returndata) {
+
+                if (returndata.status != '200') {
+                    alert(returndata.msg);
+                } else {
+                    window.location.href = "http://localhost:8080/index";
+                }
+
+            },
+            error: function (returndata) {
+                alert("err")
+            },
+        })
+
+    }
+</script>
+
+</html>

@@ -3,6 +3,7 @@ package com.nanshanlive.service;
 import com.nanshanlive.dao.UserDao;
 import com.nanshanlive.entity.UserEntity;
 import com.nanshanlive.util.IpUtil;
+import com.nanshanlive.util.MDUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -26,6 +27,7 @@ public class UserService {
      * @param request
      */
     public boolean register(UserEntity userEntity, HttpServletRequest request)throws Exception{
+        userEntity.setPass(MDUtil.md5(userEntity.getPass()));
         userEntity.setIp(IpUtil.getIp(request));
         userEntity.setCreateTime(new Date());
         userEntity.setIsAnchor(0);
@@ -39,14 +41,19 @@ public class UserService {
      * @param userEntity
      * @return
      */
-    public UserEntity login(UserEntity userEntity){
+    public UserEntity login(UserEntity userEntity) throws Exception {
         UserEntity daoUser = userDao.findByName(userEntity.getName());
         if(null == daoUser || null == daoUser.getName() || null == daoUser.getPass()
-        || !daoUser.getPass().equals(userEntity.getName())){
+        || !daoUser.getPass().equals(MDUtil.md5(userEntity.getPass()))){
             return null;
         }
 
         return daoUser;
+    }
+
+
+    public UserEntity findByName(String name){
+        return userDao.findByName(name);
     }
 
 

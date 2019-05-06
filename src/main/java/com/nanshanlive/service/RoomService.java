@@ -71,6 +71,7 @@ public class RoomService {
             return list;
         String uid = "";
         RoomEntity roomEntity;
+
         for (Object o:set) {
             if(o instanceof String){
                 uid = (String) o;

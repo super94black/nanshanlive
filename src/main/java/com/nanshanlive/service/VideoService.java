@@ -5,12 +5,9 @@ import com.nanshanlive.entity.*;
 import com.nanshanlive.thread.FormatVideoThread;
 import com.nanshanlive.dao.RoomDao;
 import com.nanshanlive.dao.VideoDao;
-import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
-
-import java.io.File;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;

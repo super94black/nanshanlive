@@ -42,6 +42,7 @@ public class LiveController {
             user = new UserEntity();
             user.setName("游客__" + NameGenerator.generate());
         }else{
+
             user.setPass(null);
         }
         session.setAttribute("user",user);

@@ -2,6 +2,8 @@ package com.nanshanlive.controller;
 
 import com.nanshanlive.entity.RecordDone;
 import com.nanshanlive.entity.VideoPojo;
+import com.nanshanlive.service.LiveService;
+import com.nanshanlive.service.RoomService;
 import com.nanshanlive.service.VideoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -24,6 +26,8 @@ public class VideoController {
 
     @Autowired
     VideoService videoService;
+    @Autowired
+    LiveService liveService;
 
     @GetMapping("/shows")
     public String getAllVideo(Model model){
@@ -32,12 +36,20 @@ public class VideoController {
         return "shows";
     }
 
+    /**
+     * 直播结束开始转码
+     * @param recordDone
+     * @return
+     */
     @RequestMapping("/video/format")
     @ResponseBody
     public String formatVideo(RecordDone recordDone){
         System.out.println(recordDone.getPath());
         try {
+            //转码码率
             videoService.formatVideo(recordDone);
+            //清除redis和mysql中的直播间
+            liveService.closeLiveStream(recordDone.getName());
         } catch (Exception e) {
             e.printStackTrace();
         }

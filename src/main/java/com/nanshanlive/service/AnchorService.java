@@ -77,4 +77,14 @@ public class AnchorService {
     }
 
 
+    /**
+     * 申请成为主播
+     * @param id
+     */
+    public void becomeAnchor(int id){
+        UserEntity user = userDao.findOne(id);
+        user.setIsAnchor(1);
+        userDao.save(user);
+    }
+
 }

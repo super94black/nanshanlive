@@ -23,24 +23,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   <body>
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            
-          </button>
-          <a class="navbar-brand" href="index.html"><h1><img src="images/logo.png" alt="" /></h1></a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-			
-			<div class="header-top-right">
-				
-				<div class="signin">
-					<a href="#small-dialog2" class="play-icon popup-with-zoom-anim">登陆</a>
-				</div>
-				<div class="signin">
-					<a href="#small-dialog" class="play-icon popup-with-zoom-anim">注册</a>
-				</div>
-			</div>
+		<div th:include="header"></div>
     </nav>
 		<div class="col-sm-3 col-md-2 sidebar">
 			<div class="drop-navigation drop-navigation">

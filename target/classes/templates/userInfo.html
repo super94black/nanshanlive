@@ -1,0 +1,125 @@
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<div th:include="head"></div>
+<body>
+<div th:include="header"></div>
+<style>
+    label{
+        display: inline-block;
+        padding: 0 10px;
+        vertical-align: middle;
+    }
+    input{
+        outline: none;
+        border: 1px solid rgb(216, 216, 216);
+        padding: 2px 10px 2px 10px;
+    }
+    input[type="text"]{
+        height: 14px;
+        line-height: 14px;
+        border-radius: 5px;
+        padding:10px 10px;
+        vertical-align: middle;
+        color:#666;
+    }
+    input[type="button"]{
+        padding: 0px 10px;
+        height:40px;
+    }
+
+
+    .login-box p{
+        vertical-align:middle;
+        padding:10px 10px;
+    }
+</style>
+<br>
+
+
+    <p>
+        <label>用户</label>
+        <label th:text="${session.user.name}"></label>
+        <input type="hidden" th:value="${session.user.id}" id="userId">
+    </p>
+
+    <p th:if="${session.user.isAnchor == 0}">
+
+        <label><input type="button" id="becomeAnchor" value="申请成为主播" onclick="getAnchor()"/></label>
+    </p>
+    <p th:if="${session.user.isAnchor == 1}">
+        <label><input type="button" id="liveCode" value="获取直播串流码" onclick="getLiveCode()"/></label>
+        <label><textarea id="result"></textarea></label>
+    </p>
+    <p>
+        <div class="code">
+
+        </div>
+    </p>
+
+
+
+
+
+</body>
+
+<script type="text/javascript">
+
+    function getAnchor() {
+        var id = $("#userId").val();
+        alert(id);
+        $.ajax({
+            url: '/becomeAnchor',
+            type: 'POST',
+            data:{'id':id},
+            dataType:'json',
+            async: true,
+
+            traditional:true,
+
+            success: function (returndata) {
+
+                if (returndata.status != '200') {
+                    alert(returndata.msg);
+                } else {
+                    location.href="http://localhost:8080/userInfo"
+
+                }
+
+            },
+            error: function (returndata) {
+                alert("err")
+            },
+        })
+
+    }
+
+
+    function getLiveCode() {
+        var id = $("#userId").val();
+
+        $.ajax({
+            url: '/token',
+            type: 'POST',
+            data:{"id":id},
+            dataType:'json',
+            async: true,
+
+            traditional:true,
+            success: function (returndata) {
+
+                if (returndata.status != '200') {
+                    alert(returndata.msg);
+                } else {
+
+                    $("#result").val(returndata.data);
+                }
+
+            },
+            error: function (returndata) {
+                alert("err")
+            },
+        })
+
+    }
+</script>
+
+</html>
