@@ -7,129 +7,130 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="264ce7d7-736b-4163-9f24-476371b6f874" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JAVA_8/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_8/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/MyCacu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/MyFun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/MyFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/TestLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/inner_interface/LambdaConstr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/inner_interface/TestConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/inner_interface/TestLamThis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/stream/TestStreamApi2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/stream/TestStreamOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv/easyCV/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv/easyCV/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../live/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../live/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../live/.idea/libraries/java.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../live/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../live/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../live/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../live/lib/spring-aop-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../live/lib/spring-aspects-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../live/lib/spring-beans-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../live/lib/spring-context-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../live/lib/spring-context-support-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../live/lib/spring-core-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../live/lib/spring-expression-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../live/lib/spring-instrument-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../live/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../live/lib/spring-jdbc-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../live/lib/spring-jms-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../live/lib/spring-messaging-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../live/lib/spring-orm-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../live/lib/spring-oxm-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../live/lib/spring-test-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../live/lib/spring-tx-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nanshanlive-client/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/SpringBootStartApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/dao/StatDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/Guest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/MsgEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/app.b829d39aa5e10720e024cbb1296a2f58.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/videojs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/barrager.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/cute.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/haha.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/heisenberg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/ie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/me.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/mj.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/yaseng.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/app.10bab200145280966f5b.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/axios.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery-1.9.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery-2.1.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery-3.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.danmu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.danmuku.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/manifest.cc99e407aeb1d2ae73ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/vendor.28b86503db3d49926942.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/videojs-ie8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/videojs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/vue-router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/vonic/ionicons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/vonic/ionicons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/vonic/ionicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/vonic/ionicons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/vonic/vonic.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/vonic/vonic.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/vonic/vonic.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/vonic/vonic.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/danmu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/live.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/registerForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/userInfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/video.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/websocket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/MyCacu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/MyCacu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/MyFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/MyFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/TestLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/TestLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/inner_interface/LambdaConstr.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/inner_interface/LambdaConstr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/inner_interface/TestConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/inner_interface/TestConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/inner_interface/TestLamThis.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/inner_interface/TestLamThis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/stream/TestStreamApi2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/stream/TestStreamApi2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/stream/TestStreamOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_8/src/main/java/cn/zhanghl/java_8/stream/TestStreamOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cv/easyCV/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cv/easyCV/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoRecorder/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoRecorder/src/main/java/cc/eguid/cv/videoRecorder/entity/RecordInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoRecorder/src/main/java/cc/eguid/cv/videoRecorder/entity/RecordTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoRecorder/src/main/java/cc/eguid/cv/videoRecorder/manager/DefaultTasksManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoRecorder/src/main/java/cc/eguid/cv/videoRecorder/manager/TasksManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoRecorder/src/main/java/cc/eguid/cv/videoRecorder/recorder/ConvertVideoPakcet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoRecorder/src/main/java/cc/eguid/cv/videoRecorder/recorder/FFmpegFrameRecorderPlus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoRecorder/src/main/java/cc/eguid/cv/videoRecorder/recorder/JavaCVRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoRecorder/src/main/java/cc/eguid/cv/videoRecorder/recorder/Recorder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoRecorder/src/main/java/cc/eguid/cv/videoRecorder/storage/DefaultRecordInfoStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoRecorder/src/main/java/cc/eguid/cv/videoRecorder/storage/RecordInfoStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoRecorder/src/main/java/cc/eguid/cv/videoRecorder/work/RecordThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoRecorder/src/test/java/cc/eguid/cv/videoRecorder/CodecNotFoundExpception.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoRecorder/src/test/java/cc/eguid/cv/videoRecorder/FFmpegVideoImageGrabber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoRecorder/src/test/java/cc/eguid/cv/videoRecorder/FileNotOpenException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoRecorder/src/test/java/cc/eguid/cv/videoRecorder/GrabberTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoRecorder/src/test/java/cc/eguid/cv/videoRecorder/GrabberTmplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoRecorder/src/test/java/cc/eguid/cv/videoRecorder/ImagePixelAlgorithm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoRecorder/src/test/java/cc/eguid/cv/videoRecorder/ImageViewer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoRecorder/src/test/java/cc/eguid/cv/videoRecorder/JavaImgConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoRecorder/src/test/java/cc/eguid/cv/videoRecorder/JavacvTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoRecorder/src/test/java/cc/eguid/cv/videoRecorder/RecorderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoRecorder/src/test/java/cc/eguid/cv/videoRecorder/StreamInfoNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoRecorder/src/test/java/cc/eguid/cv/videoRecorder/StreamNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoRecorder/src/test/java/cc/eguid/cv/videoRecorder/TestPusher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoRecorder/src/test/java/cc/eguid/cv/videoRecorder/WorkGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoRecorder/src/test/java/cc/eguid/cv/videoRecorder/recorder/FFmpegRecorder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoRecorder/src/test/java/cc/eguid/cv/videoRecorder/testRecorder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoimageshot/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoimageshot/src/main/java/cc/eguid/cv/corelib/videoimageshot/FFmpegScreenshot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoimageshot/src/main/java/cc/eguid/cv/corelib/videoimageshot/Screenshot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoimageshot/src/main/java/cc/eguid/cv/corelib/videoimageshot/core/Base64Plus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoimageshot/src/main/java/cc/eguid/cv/corelib/videoimageshot/core/ByteArrayOutputStreamPlus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoimageshot/src/main/java/cc/eguid/cv/corelib/videoimageshot/core/ImagePixelAlgorithm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoimageshot/src/main/java/cc/eguid/cv/corelib/videoimageshot/core/JavaImgConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoimageshot/src/main/java/cc/eguid/cv/corelib/videoimageshot/exception/CodecNotFoundExpception.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoimageshot/src/main/java/cc/eguid/cv/corelib/videoimageshot/exception/FileNotOpenException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoimageshot/src/main/java/cc/eguid/cv/corelib/videoimageshot/exception/StreamInfoNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoimageshot/src/main/java/cc/eguid/cv/corelib/videoimageshot/exception/StreamNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoimageshot/src/main/java/cc/eguid/cv/corelib/videoimageshot/grabber/BufferGrabber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoimageshot/src/main/java/cc/eguid/cv/corelib/videoimageshot/grabber/BufferedImageGrabber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoimageshot/src/main/java/cc/eguid/cv/corelib/videoimageshot/grabber/FFmpegVideoImageGrabber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoimageshot/src/main/java/cc/eguid/cv/corelib/videoimageshot/grabber/GrabberTmplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoimageshot/src/main/java/cc/eguid/cv/corelib/videoimageshot/threaddata/CurrentThreadData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoimageshot/src/test/java/cc/eguid/cv/corelib/videoimageshot/FFmpegJpgScreenshot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoimageshot/src/test/java/cc/eguid/cv/corelib/videoimageshot/GrabberTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoimageshot/src/test/java/cc/eguid/cv/corelib/videoimageshot/ImagePixelAlgorithmTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoimageshot/src/test/java/cc/eguid/cv/corelib/videoimageshot/ScreenshotTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoimageshot/src/test/java/cc/eguid/cv/corelib/videoimageshot/ScreenshotTest2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/corelib/videoimageshot/src/test/java/cc/eguid/cv/corelib/videoimageshot/TestFFmpeg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videoimageshot-web/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videoimageshot-web/src/main/java/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videoimageshot-web/src/main/java/cc/eguid/cv/web/videoimageshotweb/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videoimageshot-web/src/main/java/cc/eguid/cv/web/videoimageshotweb/cache/ScreenshotCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videoimageshot-web/src/main/java/cc/eguid/cv/web/videoimageshotweb/controller/MonitorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videoimageshot-web/src/main/java/cc/eguid/cv/web/videoimageshotweb/controller/ScreenshotController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videoimageshot-web/src/main/java/cc/eguid/cv/web/videoimageshotweb/pojo/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videoimageshot-web/src/main/java/cc/eguid/cv/web/videoimageshotweb/pojo/ErrorMsg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videoimageshot-web/src/main/java/cc/eguid/cv/web/videoimageshotweb/pojo/ScreenshotHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videoimageshot-web/src/main/java/cc/eguid/cv/web/videoimageshotweb/pojo/ScreenshotInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videoimageshot-web/src/main/java/cc/eguid/cv/web/videoimageshotweb/pojo/ShotParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videoimageshot-web/src/main/java/cc/eguid/cv/web/videoimageshotweb/util/CommonUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videoimageshot-web/src/main/resources/templates/monitor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videoimageshot-web/src/main/resources/templates/testImgshot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videoimageshot-web/src/main/resources/templates/viewImage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videorecorder-web/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videorecorder-web/src/main/java/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videorecorder-web/src/main/java/cc/eguid/cv/videorecorder/web/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videorecorder-web/src/main/java/cc/eguid/cv/videorecorder/web/cache/DefaultCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videorecorder-web/src/main/java/cc/eguid/cv/videorecorder/web/controller/RecordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videorecorder-web/src/main/java/cc/eguid/cv/videorecorder/web/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videorecorder-web/src/main/java/cc/eguid/cv/videorecorder/web/pojo/ErrorMsg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videorecorder-web/src/main/java/cc/eguid/cv/videorecorder/web/service/DefaultRecordServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videorecorder-web/src/main/java/cc/eguid/cv/videorecorder/web/service/RecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videorecorder-web/src/main/java/cc/eguid/cv/videorecorder/web/service/RecordServiceTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videorecorder-web/src/main/java/cc/eguid/cv/videorecorder/web/util/CommonUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videorecorder-web/src/main/resources/templates/monitor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videorecorder-web/src/main/resources/templates/play.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../easyCV/web-service/videorecorder-web/src/main/resources/templates/testRecord.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/AnchorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/AnchorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/LiveController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/LiveController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/VideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/AnchorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/AnchorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/LiveService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/LiveService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/RoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/RoomService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/VideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/VideoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/jwplayer-30s.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/RtmpDemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/SpringBootStartApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/SpringBootStartApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/bootstrap/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/bootstrap/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/bootstrap/WebSocketConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/DemoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/dao/StatDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/dao/StatDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/Guest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/Guest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/MsgEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/MsgEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nanshanlive/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/AppListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/HandShkeInceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/IpUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/MyChannelInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/NameGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nanshanlive/service/UserAgentUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hushangjie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/hushangjie1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app.10bab200145280966f5b.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app.10bab200145280966f5b.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/live.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/live.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/shows.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/shows.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/controller/AnchorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanshanlive/controller/AnchorController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanshanlive/controller/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/controller/LiveController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanshanlive/controller/LiveController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/controller/RoomController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanshanlive/controller/RoomController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanshanlive/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/controller/VideoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanshanlive/controller/VideoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/service/AnchorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanshanlive/service/AnchorService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/service/LiveService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanshanlive/service/LiveService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/service/RecordService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanshanlive/service/RecordService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/service/RoomService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanshanlive/service/RoomService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanshanlive/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nanshanlive/service/VideoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nanshanlive/service/VideoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/jwplayer-30s.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/live.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/live.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/shows.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/shows.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/live_m.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/myresume.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../毕业论文/~$毕业论文.docx" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -145,30 +146,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="39" column="55" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="28" column="72" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/video.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-528">
+            <state relative-caret-position="42">
               <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
             </state>
           </provider>
@@ -177,8 +157,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registerForm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            <state relative-caret-position="1449">
+              <caret line="69" column="49" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -186,7 +166,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
+            <state relative-caret-position="1659">
               <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
             </state>
           </provider>
@@ -195,7 +175,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/userInfo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-868">
+            <state relative-caret-position="1029">
               <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
             </state>
           </provider>
@@ -204,8 +184,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/service/RoomService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+            <state relative-caret-position="882">
+              <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -214,10 +194,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/service/VideoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-59">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.4.RELEASE/spring-data-commons-1.13.4.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/AuthController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+            <state relative-caret-position="630">
+              <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -228,8 +229,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/AnchorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="44" column="87" selection-start-line="44" selection-start-column="87" selection-end-line="44" selection-end-column="87" />
+            <state relative-caret-position="651">
+              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -240,7 +241,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/shows.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
+            <state relative-caret-position="525">
               <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
             </state>
           </provider>
@@ -391,8 +392,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -524,6 +523,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -687,6 +688,10 @@
       <workItem from="1556091712277" duration="169000" />
       <workItem from="1556884896694" duration="10570000" />
       <workItem from="1557030865458" duration="14434000" />
+      <workItem from="1557741357118" duration="1144000" />
+      <workItem from="1557818265713" duration="1123000" />
+      <workItem from="1557992030249" duration="3902000" />
+      <workItem from="1558161102514" duration="103000" />
     </task>
     <servers />
   </component>
@@ -723,7 +728,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="243215000" />
+    <option name="totallyTimeSpent" value="249487000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -736,9 +741,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988399" visible="true" weight="0.31013617" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988399" visible="true" weight="0.3623298" />
       <window_info id="Structure" order="1" sideWeight="0.5011601" side_tool="true" weight="0.3547655" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -749,8 +753,8 @@
       <window_info id="JRebel" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32786885" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33004925" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.6896552" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30213463" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.24302134" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
@@ -789,48 +793,6 @@
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/nanshanlive/service/RoomService.java</url>
-          <line>67</line>
-          <properties />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/nanshanlive/service/RoomService.java</url>
-          <line>70</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/nanshanlive/service/RoomService.java</url>
-          <line>72</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/nanshanlive/service/RecordService.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/nanshanlive/service/RecordService.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/UserController.java</url>
-          <line>78</line>
-          <properties />
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/AuthController.java</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
         <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/nanshanlive/dao/StatDao.java</url>
           <line>26</line>
@@ -868,21 +830,13 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/js/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/js/main.js" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-378" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/paging.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="12" column="72" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/paging.html" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -890,13 +844,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/js/index.js" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/head.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -985,16 +933,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/service/VideoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -1050,13 +988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-210">
           <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.4.RELEASE/spring-data-commons-1.13.4.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1157,7 +1088,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="630">
           <caret line="39" column="55" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1167,70 +1098,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="588">
           <caret line="28" column="72" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/video.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528">
+        <state relative-caret-position="42">
           <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/shows.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/registerForm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        <state relative-caret-position="1449">
+          <caret line="69" column="49" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
+        <state relative-caret-position="1659">
           <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/AnchorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="44" column="87" selection-start-line="44" selection-start-column="87" selection-end-line="44" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/userInfo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-868">
+        <state relative-caret-position="1029">
           <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/service/RoomService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        <state relative-caret-position="882">
+          <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.4.RELEASE/spring-data-commons-1.13.4.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/AuthController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+        <state relative-caret-position="630">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/controller/AnchorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/shows.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nanshanlive/service/VideoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
